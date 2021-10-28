@@ -1,0 +1,323 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: Roboto, serif;
+}
+.head {
+    width: 100%;
+    max-width: 1280px;
+    background: #102457;
+    border-bottom: 5px solid #EB5757;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container2 {
+    width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.container3 {
+    text-align: center;
+    margin: 0 0 60px;
+    width: 100%;
+}
+.container4 {
+    text-align: center;
+    margin: -60px 0 38px;
+    width: 100%;
+}
+.flex {
+    display: flex;
+}
+.flex_wrap {
+    width: 100%;
+    flex-wrap: wrap;
+}
+p {
+    font-style: normal;
+}
+.slide__bold,.slide__text,.slide__date,.slide__text2 {
+    font-style: normal;
+    color: #828282;
+}
+.slide__text3,.slide__date2 {
+    font-style: normal;
+    color: white;
+}
+.slide__bold3 {
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.slide__bold3:hover { /* доработка */
+    color: dodgerblue;
+}
+.slide__bold {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+.slide__text {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+.slide__link {
+    margin: 0 auto;
+}
+.slide__link a {
+    color: #828282;
+}
+.slide__link a:hover {
+    color: #EB5757;
+}
+.logo {
+    margin-top: 5px;
+    height:48px;
+    width:59px;
+}
+.menu {
+    margin-left: auto;
+}
+.menu li {
+    padding: 10px;
+    border-left: 1px solid #C6D3F5;
+    list-style: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+}
+li a {
+    color: #C6D3F5;
+}
+li a:hover {
+    color: dodgerblue;
+}
+.slide__1 {
+    display: block;
+    height:319px;
+    width:100%;
+}
+.mako {
+    height: 460px;
+}
+.slide_2 {
+    padding-top: 70px;
+    justify-content: space-around;
+}
+.slide__2 {
+    height:120px;
+    width:120px;
+}
+.slide__2 img { /* радиус применен непосредственно к картинкам в блоке + анимация */
+    transition: 1s;
+    border-radius: 50%;
+
+}
+.slide__2 img:hover {
+    transition: 0.7s;
+    border-radius: 20%;
+}
+.company {
+    background: #102457;
+    height: 530px;
+}
+.company__fon {
+    background: url(../img/fon-group.png) no-repeat;
+    position: absolute;
+    width: 600px;
+    height: 490px;
+    top: 420px;
+}
+
+.news {
+    height: 580px;
+}
+h2 {
+    position: absolute;z-index: 1;
+    margin:0 auto;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;}
+.top {
+    margin-left: 94px;
+    padding-left: 20px;
+    padding-top: 7px;
+    width: 247px;
+    height: 39px;
+    color:white;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.red {
+    background: #EB5757;
+}
+.blue {
+    background: #102457;
+}
+.box__text {
+    float:right;
+    padding-top: 5%;
+    padding-right: 7%;
+    box-sizing: content-box;
+    width: 40%;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+}
+.box__text ul li:nth-child(1) {
+    list-style-type: none;
+}
+.box__text ul li:nth-child(2) {
+    padding-left: 20px;list-style-image: url(../img/marque.png);
+}
+.box__text ul li:nth-child(3) {
+    padding-left: 20px;list-style-image: url(../img/marque.png);
+}
+.box__text li:nth-child(4) {
+    text-align: center;
+    width: 190px;
+    list-style-type: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 6px 30px;
+    cursor: pointer;
+}
+.box__text li:nth-child(4):hover {
+    border: 1px solid red;
+}
+.box__text li:nth-child(4):hover a {
+    color:red;
+}
+
+.box__text li {
+    margin-bottom: 30px;
+}
+.link__blue a {border: 1px solid #828282;
+    color: #828282;
+}
+.link__blue:hover a {
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+}
+.link__red a {
+    border: 1px solid #EB5757;
+    color: #EB5757;
+}
+.link__red:hover a {
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+}
+.link__white a {border: 1px solid white;
+    color: white;
+}
+.link__white:hover a {
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+}
+.link a {
+    text-align: center;
+    width: 230px;
+    border-radius: 3px;
+    padding: 13px 60px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.slide_3 {
+    padding-top: 70px;
+    justify-content: space-around;
+}
+.slide__bold2 {
+    margin-top: 15px;
+    font-weight: bold;
+    color:#828282;
+}
+.slide__bold2:hover {
+    color:dodgerblue;
+}
+.slide__3 {
+    height:160px;
+    width:254px;
+}
+.slide__5 {
+    top: 60%;
+    left: 18%;
+    position: relative;
+    height: 80px;
+    width: 65%;
+}
+
+.scale {
+    transition: 1s;
+}
+.scale:hover {
+    transform: scale(1.2);
+    border-radius: 5%;
+}
+.partners {
+    background: #102457;
+    height: 640px;
+}
+.group__1 {
+    display: block;
+    height:165px;
+    width:100%;
+}
+.gallery {
+    background: #F2F2F2;
+    height: 513px;
+}
+.gallery2 {
+    background: #102457;
+    height: 244px;
+}
+.gallery__fon {
+    background: url(../img/mako.png) no-repeat;
+    position: relative;
+    width: 855px;
+    height: 570px;
+    top: 15%;
+    left: 17%;
+    text-align: center;
+}
+.mako-mini {
+    border: 5px solid #102457;
+    width: 120px;
+    height: 80px;
+}
+.mako-mini:hover {
+    border: 5px solid #EB5757;
+}
+.footer {padding-top: 30px;}
+.footer__menu li {padding-top: 7px;}
+.footer ul {
+    list-style-type: none;
+}
+.footer__right {
+margin-top: -80px;
+}
+.social {}
+.social img {
+    padding-top: 16px;
+    height:35px;
+    width:35px;
+}
+.logo__end {
+    height:52px;
+    width:65px;
+}
+.end {
+    color: white;
+}
